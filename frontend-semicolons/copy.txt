@@ -1,0 +1,79 @@
+**Type 2 Diabetes: A Comprehensive Guide**
+
+Type 2 diabetes is a chronic metabolic disorder that affects how the body converts glucose, a sugar that comes from food, into energy. When you have type 2 diabetes, your body does not make enough insulin or does not use insulin well. Insulin is a hormone that helps glucose enter cells in your body for energy.
+
+**Symptoms:**
+
+* Increased thirst
+* Frequent urination
+* Weight loss
+* Fatigue
+* Blurred vision
+* Slow-healing sores
+* Frequent infections
+* Tingling or numbness in your hands or feet
+
+**Risk factors:**
+
+* Obesity
+* Family history of diabetes
+* Age 45 or older
+* High blood pressure
+* High cholesterol
+* Physical inactivity
+* Certain ethnicities, such as African American, Hispanic American, American Indian, and Asian American
+
+**Diagnosis:**
+
+Your doctor will diagnose type 2 diabetes with a blood sugar level test. A blood sugar level test measures the amount of glucose in your blood. Your doctor may order a fasting blood sugar level test, a random blood sugar level test, or a hemoglobin A1c (HbA1c) test.
+
+**Treatment:**
+
+There are several treatments for type 2 diabetes, including:
+
+* Medicine
+* Diet
+* Exercise
+* Insulin
+
+**Medications:**
+
+There are a variety of medications that can help lower blood sugar levels. These medications include:
+
+* Oral medications, such as metformin, glyburide, and sulfonylureas
+* Injectable medications, such as GLP-1 receptor agonists, glucagon-like peptide-1 (GLP-1) receptor agonists, and insulin
+
+**Diet:**
+
+A healthy diet can help lower blood sugar levels. You should eat plenty of fruits, vegetables, and whole grains. You should also limit your saturated fat and cholesterol intake.
+
+**Exercise:**
+
+Regular exercise can help lower blood sugar levels. Aim for at least 30 minutes of moderate-intensity exercise most days of the week.
+
+**Insulin:**
+
+Insulin is a hormone that helps glucose enter cells in your body for energy. If your blood sugar levels are not controlled with medication and diet, your doctor may prescribe insulin.
+
+**Prevention:**
+
+There are several things you can do to help prevent type 2 diabetes, including:
+
+* Maintain a healthy weight
+* Get regular exercise
+* Eat a healthy diet
+* Quit smoking
+* Manage high blood pressure
+* Manage high cholesterol
+* Reduce stress
+
+**Conclusion:**
+
+Type 2 diabetes is a chronic metabolic disorder that can be managed with treatment. By following your doctor's recommendations and making healthy lifestyle changes, you can help improve your quality of life and prevent serious complications.
+
+       // <button
+          //   onClick={handleClick}
+          //   className="inline-flex w-full h-full items-center px-10 rounded-md bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200"
+          // >}
+            <strong>Create Outline</strong>
+          </button>
