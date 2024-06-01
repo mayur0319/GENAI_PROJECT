@@ -1,0 +1,51 @@
+
+GENAI Project Architecture
+The GENAI project is a Python web application built using Flask. The main application code and configuration is contained within the website folder.
+Models
+⦁	The application data models are defined in models.py 
+⦁	Currently there is a User model for user authentication and a Product model.
+⦁	Additional models can be added here as needed to represent other application data, such as orders or cart items.
+Views
+⦁	View functions for handling requests are defined in views.py
+⦁	These include routes for pages like the home page and add to cart.
+⦁	Authentication views are separated out to auth.py
+⦁	This follows the blueprints pattern used by Flask.
+
+Initialization
+⦁	When the application starts up, __init__.py performs initialization tasks:
+⦁	It registers the `views` and `auth` blueprints
+⦁	Imports and configures the Flask login manager
+⦁	Sets up the database connection
+⦁	Creates all database tables
+⦁	This ensures all application components are wired up correctly.
+
+Templates
+The templates folder contains Jinja templates for rendering pages. These pull in data from the view functions.
+Static Files
+Static files like CSS, images etc. are stored in the static folder.
+Testing
+Automated tests added to the tests folder as the application is developed.
+
+Here is one way to provide a database script for the GENAI project:
+First, we'll need to import the necessary libraries:
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import Column, Integer, String
+Next, we can define a database object:
+db = SQLAlchemy()
+Now we can create a model class to represent a user in our database:
+class User(db.Model):
+  id = Column(Integer, primary_key=True)
+  email = Column(String(100), unique=True)
+  password = Column(String(100))
+  name = Column(String(1000))
+We also need a model for posts that users can make:
+class Post(db.Model):
+  id = Column(Integer, primary_key=True) 
+  title = Column(String(100))
+  body = Column(String(1000))
+  user_id = Column(Integer, ForeignKey('user.id'))
+Finally, we run database migrations to initialize the schema:
+db.create_all()
+
+
+Prompt Screenshots: 
